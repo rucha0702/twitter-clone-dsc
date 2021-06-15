@@ -508,9 +508,9 @@
         <a style="grid-area: a5;" href=""><img src="gallery-img5.png" alt=""></a>
         <a style="grid-area: a6;" href=""><img id="img6"src="gallery-img6.jfif" alt=""></a>
       </div></div>
-      <button id="#btn8">Dark</button>
+      <!-- <button id="#btn8">Dark</button> -->
     </sidebar>
-    <!-- <script
+    <script
       src="https://code.jquery.com/jquery-2.2.4.min.js"
       integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
       crossorigin="anonymous"
@@ -518,13 +518,14 @@
     <script>
       $(document).ready(function () {
         $('#btn8').click(function () {
-          $('.back,.dsc-logo').css('width', '200px');
+          $('body').css('background', '#333');
+          $('body').css('color', '#fff');
           // $('').css('display', 'block');
         });
 
         
       });
-    </script> -->
+    </script>
   </body>
 </html>
 

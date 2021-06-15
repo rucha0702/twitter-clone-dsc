@@ -163,7 +163,7 @@ i {
 }
 .joint-section:hover {
   background: var(--quad);
-  border-left: var(--text);
+  /* border-left: var(--text); */
   transition: 0.4s;
 }
 .follow {
@@ -310,6 +310,16 @@ section .item {
 .reaction-bar #share svg:hover {
   color: var(--primary);
   background: rgb(119, 182, 253);
+  border-radius: 50%;
+  padding: 5px;
+}
+.reaction-bar #like svg:hover {
+  background: rgb(243, 94, 119);
+  border-radius: 50%;
+  padding: 5px;
+}
+.reaction-bar #Retweet svg:hover {
+  background: rgb(71, 214, 71);
   border-radius: 50%;
   padding: 5px;
 }
