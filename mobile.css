@@ -1,0 +1,33 @@
+#sidebar,
+#right-sidebar {
+  display: none;
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+#dsc-main-section {
+  padding: 1px;
+  margin: 0;
+  flex: 1;
+}
+.dsc-logo {
+  left: 15px;
+  width: 70px;
+}
+.container-img {
+  width: 90px;
+  height: 90px;
+}
+.container-1 span {
+  display: none;
+}
+.below-img {
+  margin-left: 0;
+}
+.girl {
+  height: 150px;
+}
+.bold {
+  margin-top: 20px;
+}
