@@ -92,6 +92,10 @@ i {
   background: rgb(59, 132, 241);
   transition: 10ms;
 }
+.user {
+  display: flex;
+  margin-top: 40px;
+}
 #sidebar {
   border-right: var(--quad) 1px solid;
   flex: 0.2;
@@ -156,6 +160,11 @@ i {
 .joint-section {
   padding: 0 15px;
   border-bottom: var(--quad) 1px solid;
+}
+.joint-section:hover {
+  background: var(--quad);
+  border-left: var(--text);
+  transition: 0.4s;
 }
 .follow {
   padding: 5px 15px;
