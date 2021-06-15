@@ -96,7 +96,7 @@ i {
   border-right: var(--quad) 1px solid;
   flex: 0.2;
   padding: 0 15px;
-  padding-right: 50px;
+  padding-right: 30px;
   height: 100vh;
   position: sticky;
   top: 0;
@@ -150,8 +150,8 @@ i {
   width: 135px;
 }
 .dsc-logo:hover {
-  /* opacity: 0.9; */
-  background-image: linear-gradient(grey, grey);
+  opacity: 0.9;
+  /* background-image: linear-gradient(grey, grey); */
 }
 .joint-section {
   padding: 0 15px;
@@ -241,6 +241,7 @@ section .item {
   align-items: center;
   text-align: center;
   padding: 0 25px;
+  padding-right: 0;
 }
 #search {
   padding: 15px;
@@ -312,4 +313,7 @@ section .item {
 .stick {
   position: sticky;
   top: 3px;
+}
+.item h3 {
+  margin-top: 10px;
 }
