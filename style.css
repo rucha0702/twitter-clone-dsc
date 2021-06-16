@@ -61,7 +61,7 @@ a:hover {
   color: var(--primary);
   border-radius: 30px;
   /* width: 100%; */
-  transition: 0.1s;
+  transition: all 0.2s ease;
 }
 i {
   margin-left: 5px;
@@ -161,11 +161,11 @@ i {
   padding: 0 15px;
   border-bottom: var(--quad) 1px solid;
 }
-.joint-section:hover {
+/* .joint-section:hover {
   background: var(--quad);
   /* border-left: var(--text); */
-  transition: 0.4s;
-}
+/* transition: all 0.4s ease;
+} */
 .follow {
   padding: 5px 15px;
 }
@@ -336,7 +336,15 @@ section .item {
 .item h3 {
   margin-top: 10px;
 }
-form {
+#btn8 {
   margin-top: 10px;
   margin-left: 30px;
+}
+label {
+  margin-top: 5px;
+  margin-left: 10px;
+}
+.dark {
+  background: #333;
+  color: #fff;
 }

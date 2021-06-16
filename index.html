@@ -237,13 +237,13 @@
       <div class="header line">
         <i class="fas fa-arrow-left"></i>
         <div >
-          <h1 class="bold">DSC JSSATEN</h1>
+          <h1 id ="hd" class="bold">DSC JSSATEN</h1>
           <p class="text">207 Tweets</p>
         </div>
-        <form action="form"> 
+      
           <input id="btn8"type="checkbox">
-          <label for="btn8">Dark-mode</label>
-       </form>
+          <label id="lb" for="btn8">Dark-mode</label>
+      
       </div>
 
       <div class="separate-section">
@@ -515,14 +515,16 @@
       <!-- <button id="#btn8">Dark</button> -->
      
     </sidebar>
-    <script
+    <!-- <script
       src="https://code.jquery.com/jquery-2.2.4.min.js"
       integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
       crossorigin="anonymous"
     ></script>
     <script>
       $(document).ready(function () {
+       
         $('#btn8').click(function () {
+          
           $('body').css('background', '#333');
           $('body').css('color', '#fff');
           $('.back').css('background', '#333');
@@ -535,6 +537,32 @@
 
         
       });
+    </script> -->
+    <script>
+     var head =document.getElementById('hd');
+     var labl =document.getElementById('lb');
+     var change= document.getElementById("btn8");
+       change.addEventListener('click',check)
+        function check(){
+          if(change.checked){
+            darkOn();
+          }
+          else{
+            darkOff();
+          }
+        }
+        function darkOn(){
+          document.body.classList.add('dark');
+          hd.style["color"]="black";
+          labl.style["color"]="black";
+          
+        }
+        function darkOff(){
+          document.body.classList.remove('dark')
+        }
+
+
+
     </script>
   </body>
 </html>
