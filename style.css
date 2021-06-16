@@ -11,8 +11,8 @@ svg {
   --secondary: #fff;
   --tertiary: #daeefa;
   --quad: rgb(221, 220, 220);
-  --box: rgb(180, 177, 177);
-  --text: rgb(105, 104, 104);
+  --box: rgb(216, 212, 212);
+  --text: rgb(170, 166, 166);
   --bold: rgb(83, 81, 81);
 }
 body {
@@ -335,4 +335,8 @@ section .item {
 }
 .item h3 {
   margin-top: 10px;
+}
+form {
+  margin-top: 10px;
+  margin-left: 30px;
 }

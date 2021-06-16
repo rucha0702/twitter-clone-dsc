@@ -240,6 +240,10 @@
           <h1 class="bold">DSC JSSATEN</h1>
           <p class="text">207 Tweets</p>
         </div>
+        <form action="form"> 
+          <input id="btn8"type="checkbox">
+          <label for="btn8">Dark-mode</label>
+       </form>
       </div>
 
       <div class="separate-section">
@@ -509,6 +513,7 @@
         <a style="grid-area: a6;" href=""><img id="img6"src="gallery-img6.jfif" alt=""></a>
       </div></div>
       <!-- <button id="#btn8">Dark</button> -->
+     
     </sidebar>
     <script
       src="https://code.jquery.com/jquery-2.2.4.min.js"
@@ -520,6 +525,11 @@
         $('#btn8').click(function () {
           $('body').css('background', '#333');
           $('body').css('color', '#fff');
+          $('.back').css('background', '#333');
+          $('.main-box a').css('color', '#fff');
+          $('.joint-section').css('background', '#333');
+          $('.header').css('background', '#333');
+          // $('svg').css('color', '#fff');
           // $('').css('display', 'block');
         });
 
