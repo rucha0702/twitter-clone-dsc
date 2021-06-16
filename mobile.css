@@ -14,6 +14,7 @@ body {
 .dsc-logo {
   left: 15px;
   width: 70px;
+  top: 150px;
 }
 .container-img {
   width: 90px;
@@ -29,5 +30,8 @@ body {
   height: 150px;
 }
 .bold {
-  margin-top: 20px;
+  margin-top: 10px;
+}
+h1.bold {
+  margin-top: 0;
 }

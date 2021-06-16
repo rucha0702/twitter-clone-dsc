@@ -523,12 +523,13 @@
     <script>
       $(document).ready(function () {
         $('#btn8').click(function () {
-          $('body').css('background', '#333');
+          if(type.checked)
+          {$('body').css('background', '#333');
           $('body').css('color', '#fff');
           $('.back').css('background', '#333');
           $('.main-box a').css('color', '#fff');
           $('.joint-section').css('background', '#333');
-          $('.header').css('background', '#333');
+          $('.header').css('background', '#333');}
           // $('svg').css('color', '#fff');
           // $('').css('display', 'block');
         });
