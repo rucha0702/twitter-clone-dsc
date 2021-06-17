@@ -44,6 +44,7 @@ a:hover {
   color: var(--text);
 }
 .sidebar-option {
+  transition: all 0.2s ease;
   display: flex;
   cursor: pointer;
   align-items: center;
@@ -61,7 +62,6 @@ a:hover {
   color: var(--primary);
   border-radius: 30px;
   /* width: 100%; */
-  transition: all 0.2s ease;
 }
 i {
   margin-left: 5px;
